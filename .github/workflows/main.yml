@@ -8,6 +8,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+   
     steps:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
@@ -16,3 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year 
+          template: "@super-metrics"
+          base: false
+            
+          
