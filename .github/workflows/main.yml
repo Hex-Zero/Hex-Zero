@@ -26,9 +26,6 @@ jobs:
          # plugin_stackoverflow_lines: 4                                # Display 4 lines per entry
           
           extras_css: | 
-            svg{ 
-              margin-left: 150px;
-            }
             h1, h2, h3 {
              color: #663399;
             }
