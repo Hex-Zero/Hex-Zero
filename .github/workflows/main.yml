@@ -15,7 +15,7 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-          base: false
+          base: "Header"
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
          
